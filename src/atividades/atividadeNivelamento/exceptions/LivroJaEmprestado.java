@@ -1,4 +1,4 @@
-package nivelamento.exceptions;
+package atividades.atividadeNivelamento.exceptions;
 
 public class LivroJaEmprestado extends Exception {
     public LivroJaEmprestado() {

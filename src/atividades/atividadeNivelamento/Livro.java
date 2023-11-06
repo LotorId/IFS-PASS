@@ -1,4 +1,4 @@
-package nivelamento;
+package atividades.atividadeNivelamento;
 public class Livro {
 
     public int id;

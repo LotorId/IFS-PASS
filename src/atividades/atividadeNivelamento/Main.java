@@ -1,7 +1,7 @@
-package nivelamento;
+package atividades.atividadeNivelamento;
 
-import nivelamento.exceptions.LivroJaEmprestado;
-import nivelamento.exceptions.LivroNaoEmprestado;
+import atividades.atividadeNivelamento.exceptions.LivroJaEmprestado;
+import atividades.atividadeNivelamento.exceptions.LivroNaoEmprestado;
 import java.util.Scanner;
 
 public class Main {
@@ -14,14 +14,16 @@ public class Main {
 
         do {
             System.out.println("""
+                    - MENU ----------------------\s
                     1 - Listar livros\s
                     2 - Listar usuarios\s
                     3 - Devolver livro\s
                     4 - Emprestar livro\s
                     5 - Buscar livro por titulo\s
                     6 - Listar livros disponiveis\s
+                    -----------------------------
                     """);
-            System.out.println("Insira: ");
+            System.out.println("Insira a opcao: ");
             option = scanner.nextInt();
 
             switch (option) {

@@ -1,7 +1,7 @@
-package nivelamento;
+package atividades.atividadeNivelamento;
 
-import nivelamento.exceptions.LivroJaEmprestado;
-import nivelamento.exceptions.LivroNaoEmprestado;
+import atividades.atividadeNivelamento.exceptions.LivroJaEmprestado;
+import atividades.atividadeNivelamento.exceptions.LivroNaoEmprestado;
 import java.util.ArrayList;
 public class Biblioteca {
 
